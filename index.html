@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <div id="app">
+
+        <!--home-->
+        <div class="list-wrapper">
+            <header class="my-padding">
+                <h1>Conti</h1>  
+            </header>
+            <ul id="home-views" class="list">
+
+                <li class="list-item my-padding">
+                    <div class="description">
+                        <h2>${v.nome}</h2>
+                        <h4>${v.descrizione}</h4>
+                    </div>
+                    <div class="btn"><i class="fa-solid fa-trash"></i></div>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sheetrock/1.1.2/dist/sheetrock.min.js"></script>
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/utils.js"></script>
+</body>
+</html>

@@ -1,12 +1,8 @@
 *,
 *::before,
 *::after{
-	/*background:#0002;*/
+	background:#0002;
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
-}
-
-body{
-	height:100dvh;
 }

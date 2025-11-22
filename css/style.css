@@ -1,3 +1,27 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css');
 @import url('normalization.css');
 @import url('utils.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css');
+@import url('variables.css');
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:100dvh;
+    max-height:100dvh;
+    overflow-y: hidden;
+}
+
+#app{
+    max-width:600px;
+    max-height:calc(100dvh - 29.5px);
+	width:100dvw;
+	margin:0 auto;
+
+    flex-grow: 1;
+}
+footer{
+    font-size: .8rem;
+    text-align: center;
+    padding: .5rem;
+}
